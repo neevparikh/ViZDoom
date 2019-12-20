@@ -174,6 +174,7 @@ namespace vizdoom {
 
         // These functions are wrapped for manual GIL management
         void init();
+        void newEpisode(std::string filePath = "");
         void advanceAction(unsigned int tics = 1, bool updateState = true);
         void respawnPlayer();
 
